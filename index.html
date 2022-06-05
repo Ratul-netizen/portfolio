@@ -12,6 +12,16 @@
 </head>
 
 <body>
+    <div>
+        <Navbar>
+            <ul>
+                <li>home</li>
+                <li>About Me</li>
+                <li>Contact</li>
+            </ul>
+        </Navbar>
+    </div>
+    <br>
     <section class="top-banner">
         <div class="half-width">
             <h1>Welcome To</h1>
@@ -39,7 +49,8 @@
     </section>
     <section class="dream-area">
         <div class="half-width">
-            <img src="images/my_pic1.jpg" style="border: 5px solid orange;  border-radius: 15px 50px;" alt="Ratul picture">
+            <img src="images/my_pic1.jpg" style="border: 5px solid orange;  border-radius: 15px 50px;"
+                alt="Ratul picture">
         </div>
         <div class="half-width">
             <h2>Big Dream</h2>
@@ -71,6 +82,11 @@
     </section>
     <footer>
         <p>© Wahid Sadiq Ratul 2022, all rights reserved.</p>
+        <p id="tracker"></p>
+        <script>
+            const date = new Date(document.lastModified);
+            document.getElementById("tracker").innerHTML = date;
+        </script>
     </footer>
 </body>
 
