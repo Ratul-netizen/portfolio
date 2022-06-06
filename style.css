@@ -102,9 +102,13 @@
 
     td,
     th {
-        border: 1px solid #53c2b1;
+        border: 2px solid #42babc;
         text-align: left;
         padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #bcdce6;
     }
 
     footer p {
