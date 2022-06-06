@@ -3,6 +3,27 @@
         font-family: 'Roboto Mono', monospace;
     }
 
+    .Header {
+        text-align: center;
+    }
+
+    .Header nav {
+        background-color: whitesmoke;
+        line-height: 40px;
+        font-size: 30px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: rgb(221, 165, 61);
+        margin-left: 95px;
+        padding: 15px;
+    }
+
+    nav a:hover {
+        background-color: rgb(233, 221, 221);
+    }
+
     h1 {
         font-size: 50px;
     }
