@@ -15,6 +15,10 @@
         color: dimgray;
     }
 
+    .link:hover {
+        background-color: rgb(171, 219, 171);
+    }
+
     .orange-highlight {
         color: orange;
     }
@@ -49,7 +53,7 @@
         font-weight: bold;
     }
 
-    .dream-area {
+    .about-area {
         background-image: url("images/dream-bg.png");
         background-repeat: no-repeat;
         background-position: right;
@@ -78,7 +82,7 @@
         padding-left: 3%;
     }
 
-    #baby-web {
+    #junior-web {
         border-left: 7px solid;
         border-image: linear-gradient(180deg, blue, cyan);
         border-image-slice: 1;
