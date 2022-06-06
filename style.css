@@ -30,6 +30,13 @@
         padding-left: 2%;
     }
 
+    .full-width {
+        width: 50%;
+        text-align: center;
+        margin-left: 20%;
+        padding-left: 5%;
+    }
+
     .half-width img {
         width: 100%;
     }
@@ -86,6 +93,18 @@
         border-left: 7px solid;
         border-image: linear-gradient(180deg, blue, cyan);
         border-image-slice: 1;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
     }
 
     footer p {
